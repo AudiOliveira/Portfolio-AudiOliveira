@@ -57,6 +57,10 @@ a:hover, a:active, a:focus {
   outline: none;
   text-decoration: none;
 }
+.col-md-4{
+  position: relative;
+width: auto;
+}
 
 p {
   margin-bottom: 30px;
@@ -100,7 +104,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 68, 255, 0.9);
+  background: rgb(40 50 77 / 90%);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -224,7 +228,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: rgba(0, 68, 255, 0.9);
+  background: rgba(2, 27, 95, 0.9);
 }
 #fh5co-features h2 {
   color: #fff;
