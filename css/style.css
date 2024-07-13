@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgb(40 50 77 / 90%);
+  background: rgba(186, 34, 42, 0.746);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: rgba(2, 27, 95, 0.9);
+  background: rgb(17 45 153 / 95%);
 }
 #fh5co-features h2 {
   color: #fff;
@@ -241,6 +241,71 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   width: 400px;
 }
+
+
+
+
+#profile-photo {
+  border-radius: 5%;
+  width: 60%;
+  height: 60%;
+  margin-bottom: 50px;
+}
+
+.fh5co-social-icons {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.fh5co-social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.fh5co-social-icons li a {
+  color: #333;
+  font-size: 20px;
+  transition: color 0.3s;
+  margin: 0 5px;
+}
+
+.fh5co-social-icons li a:hover {
+  color: rgb(17 45 153 / 95%);
+}
+
+.info {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.info li {
+  margin-bottom: 10px;
+}
+
+.info .first-block {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.info .second-block {
+  font-style: italic;
+}
+
+.profile-photo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+.col-md-7{
+  margin-top: 50px;
+  width: fit-content;
+}
+}
+
+
 @media screen and (min-width: 992px) {
 #Projetos{
   display: flex;
@@ -271,7 +336,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: rgba(0, 68, 255, 0.9) !important;
+  color: rgba(0, 0, 0, 0.9) !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -416,10 +481,12 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 2px;
   border-radius: 2px;
 }
+
 #fh5co-about .fh5co-social-icons li a i {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
+  transition: 0.5s;
   background: rgba(0, 68, 255, 0.9);
 }
 /* Quando houver hover, altere a cor do ícone e aumente o tamanho */
@@ -451,6 +518,85 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 12px;
   letter-spacing: 2px;
 }
+
+
+
+
+
+
+
+
+
+.timeline-panel {
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.timeline-image-right {
+  justify-content: right;
+  margin-right: 5%;
+}
+.timeline-image-left {
+  justify-content: left;
+  margin-left: 5%;
+}
+
+.timeline-image img {
+  
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 993px) {
+  .timeline-image {
+      display: none;
+  }
+  *, ::after, ::before {
+    box-sizing: content-box;
+}
+}
+
+
+.timeline-heading h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.timeline-body p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .timeline-image, .timeline-panel {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  .order-md-1 {
+      order: 1;
+  }
+  .order-md-2 {
+      order: 2;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .timeline {
   list-style: none;
@@ -499,10 +645,11 @@ h1, h2, h3, h4, h5, h6, figure {
   .timeline .timeline-heading > div h3 {
     float: left;
     margin-bottom: 0;
+    margin-left: 3%;
   }
 }
 .timeline > li {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   position: relative;
 }
 @media screen and (max-width: 768px) {
@@ -554,7 +701,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: rgba(0, 68, 255, 0.9);
+  background-color: rgb(17 45 153 / 95%);
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
