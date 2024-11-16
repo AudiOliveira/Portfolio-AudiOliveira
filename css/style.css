@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(186, 34, 42, 0.746);
+  background: linear-gradient(90deg, rgba(7, 67, 208, 0.746) 0%, rgba(0, 0, 0, 0.798) 49%, rgba(7, 67, 208, 0.746) 100%);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
